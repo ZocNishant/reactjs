@@ -22,7 +22,11 @@ const Card = () => {
         <div className="w-52 h-32 bg-zinc-300"></div>
         <div className="w-full px-3 py-4">
           <h2>Pasa k xa</h2>
-          <p>Lorem ipsum dolor sit.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, alias
+            labore eius mollitia voluptatum in pariatur doloremque molestiae
+            modi! Totam!
+          </p>
         </div>
       </div>
     </div>
