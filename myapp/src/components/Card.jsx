@@ -27,6 +27,14 @@ const Card = () => {
             labore eius mollitia voluptatum in pariatur doloremque molestiae
             modi! Totam!
           </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            impedit natus sapiente, nulla voluptatum ullam id reprehenderit enim
+            doloremque illum nisi! Numquam temporibus ducimus nisi praesentium
+            voluptatibus, distinctio sit sed. Quam enim nobis fuga sed, earum
+            ipsa nihil labore tenetur cumque vel? Corporis aperiam consequatur
+            facere porro dolores excepturi eveniet.
+          </p>
         </div>
       </div>
     </div>
