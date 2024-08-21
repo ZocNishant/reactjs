@@ -1,11 +1,12 @@
 import React from "react";
 import Card from "./components/Card";
+import State from "./components/State";
 
 const App = () => {
-  const data = ["N", "I", "S", "H", "A", "N", "T"];
   return (
     <>
-      <Card />
+      {/* <Card /> */}
+      <State />
     </>
   );
 };
