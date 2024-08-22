@@ -11,7 +11,7 @@ const State = () => {
         onClick={() => setAns(!ans)}
         className="px-2 py-2 bg-slate-400 text-xs rounded-xl text-red-700 m-2"
       >
-        Change
+        Change the value
       </button>
     </div>
   );
