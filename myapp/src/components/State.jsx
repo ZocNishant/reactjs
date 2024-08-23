@@ -6,6 +6,7 @@ const State = () => {
   //   setAns(200);
   return (
     <div className="p-4">
+      <h1 className="pasa">K xa Pasa</h1>
       <h1>{ans.toString()}</h1>
       <button
         onClick={() => setAns(!ans)}
