@@ -1,18 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 
 const State = () => {
-  const [ans, setAns] = useState(true);
+  const [val, setVal] = useState(12);
 
-  //   setAns(200);
   return (
-    <div className="p-4">
-      <h1 className="pasa">K xa Pasa</h1>
-      <h1>{ans.toString()}</h1>
+    <div className="m-2">
+      <h1>{val}</h1>
       <button
-        onClick={() => setAns(!ans)}
-        className="px-2 py-2 bg-slate-400 text-xs rounded-xl text-red-700 m-2"
+        onClick={() => setVal((prev) => prev + 1)}
+        className="bg-blue-500 px-3 py-3 rounded-md"
       >
-        Change the value
+        Change
       </button>
     </div>
   );
