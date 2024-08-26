@@ -2,17 +2,26 @@ import React from "react";
 import { useState } from "react";
 
 const State = () => {
-  const [val, setVal] = useState({ name: "Nishant", isBanned: false });
+  const [val, setVal] = useState([
+    { name: "Nishant", age: 22 },
+    { name: "Nishan", age: 21 },
+    { name: "Nisha", age: 33 },
+  ]);
   return (
-    <div className="m-3">
-      <h1>name: {val.name}</h1>
-      <h2>banned: {val.isBanned.toString()}</h2>
-
+    <div className="p-5">
+      {val.map((item) => (
+        <>
+          <h1>{item.name}</h1>
+          <h1>{item.age}</h1>
+        </>
+      ))}
       <button
-        onClick={() => setVal({ ...val, isBanned: !val.isBanned })}
-        className={`${
-          val.isBanned ? "bg-blue-500" : "bg-red-500"
-        } px-3 py-2 rounded-lg text-yellow-100 cursor-pointer hover:bg-orange-500 hover:text-violet-500`}
+        onClick={() =>
+          val.map((item) =>
+            item.name === "Nishant" ? { name: "Nishant", age: 20 } : item
+          )
+        }
+        className="px-3 py-2 rounded-lg bg-green-500 cursor-pointer "
       >
         Change
       </button>
